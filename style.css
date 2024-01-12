@@ -4,4 +4,7 @@
   box-sizing: border-box;
 }
 
-/*? START HEADER *//*# sourceMappingURL=style.css.map */
+/*? START HEADER */
+header {
+  background-color: aqua;
+}/*# sourceMappingURL=style.css.map */
