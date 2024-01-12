@@ -11,6 +11,10 @@ header{
     justify-content: space-between;
     padding:2% 5%;
     font-family:'Poppins', sans-serif;
+    i{
+        font-size:20px;
+        color: #02897A;
+    }
     ul {
         list-style: none;
         display: flex;
@@ -32,3 +36,53 @@ header{
 }
 
     /*? END HEADER */
+
+
+    /*? START HERO */
+    .hero{
+        font-family: 'Poppins',sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2% 5%;
+        .hero-left{
+            max-width:500px;
+           
+            h1{
+                font-size:40px;
+            }
+            p{
+                margin-top:25px;
+            }
+             .hero-buttons{
+                display: flex;
+                gap:30px;
+                margin-top:30px;
+                .btn3{
+                    background: #02897A;
+                    color: #fff;
+                    border: none;
+                    padding:10px 25px;
+                    border-radius:7px;
+                }
+                .btn4{
+                     background-color: #fff;
+                     color:#02897A ;
+                }
+             }
+        }
+    }
+       /* ? END HERO */
+
+
+       /*? START BLOCK */
+     .block{
+         h1{
+            color:#22343D;
+            text-align: center;
+         }
+        
+     }
+
+
+
