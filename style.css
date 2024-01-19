@@ -110,7 +110,20 @@ header .btn1 {
 
 /* ?  END BLOCKS  */
 /* ? START CONTENTS */
+.contents {
+  padding: 5% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contents img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 .contents .content-left {
   max-width: 400px;
   font-family: "Poppins", sans-serif;
+}
+.contents .content-left h2 {
+  font-size: 32px;
 }/*# sourceMappingURL=style.css.map */

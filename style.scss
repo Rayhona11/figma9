@@ -115,8 +115,19 @@ header{
 
         /* ? START CONTENTS */
      .contents{
+        padding:5% 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            object-fit: cover;
+        }
         .content-left{
             max-width:400px;
             font-family:'Poppins', sans-serif;
+            h2{
+                font-size:32px;
+            }
         }
+        
      }
