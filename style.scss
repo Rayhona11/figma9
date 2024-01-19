@@ -34,7 +34,6 @@ header{
         border-radius: 8px;
     }
 }
-
     /*? END HEADER */
 
 
@@ -76,13 +75,41 @@ header{
 
 
        /*? START BLOCK */
-     .block{
-         h1{
+     .blocks{
+        font-family: 'Poppins', sans-serif;
+        padding:3% 5%;
+        background-color:#EDEDED;
+        h1{
             color:#22343D;
             text-align: center;
+            font-size:32px;
          }
+        .BLOCKS{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding:5% 0px;
+            .block{
+                max-width:200px;
+                b{
+                    padding-top:20px;
+                    font-size:22px;
+                }
+                p{
+                    margin-top:10px;
+                    font-size: 16px;
+                }
+              }
+            }
+            .btn5{
+                padding:15px 30px;
+                background-color: #02897A;
+                color: #fff;
+                border: none;
+                border-radius:3px;
+                margin-left:550px;
+            }
+       }
         
-     }
-
 
 

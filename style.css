@@ -72,7 +72,38 @@ header .btn1 {
 
 /* ? END HERO */
 /*? START BLOCK */
-.block h1 {
+.blocks {
+  font-family: "Poppins", sans-serif;
+  padding: 3% 5%;
+  background-color: #EDEDED;
+}
+.blocks h1 {
   color: #22343D;
   text-align: center;
+  font-size: 32px;
+}
+.blocks .BLOCKS {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 0px;
+}
+.blocks .BLOCKS .block {
+  max-width: 200px;
+}
+.blocks .BLOCKS .block b {
+  padding-top: 20px;
+  font-size: 22px;
+}
+.blocks .BLOCKS .block p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.blocks .btn5 {
+  padding: 15px 30px;
+  background-color: #02897A;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 550px;
 }/*# sourceMappingURL=style.css.map */
